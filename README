@@ -1,0 +1,13 @@
+I have successfully compiled and tested this code on Linux 18.04 and 20.04
+
+Please use the easy_build.sh file to build and compile this code
+Once built, run
+./bin/kdtree_search
+and follow the command line messages
+
+My assumption is that sample points in the dataset are 3D points (x,y,Theta)
+where theta is between 0 to 2*pi and x and y are uniformly sampled from the space of dimension WIDTHxHEIGHT
+
+Please also check the plot sample_points.png which plots 2D projection of datapoints in green circle,
+you input point in red circle and the N nearest neighbors obtained from kdtree search by blue rectangle. You can
+see that blue rectangles are on top of the closest red circles
